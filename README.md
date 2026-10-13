@@ -1,5 +1,7 @@
 # CME evidence pipeline: draft fast, verify hard
 
+[![tests](https://github.com/cristofarolfm/cme-evidence-pipeline/actions/workflows/tests.yml/badge.svg)](https://github.com/cristofarolfm/cme-evidence-pipeline/actions/workflows/tests.yml)
+
 A small, reproducible pipeline for the core loop of accredited medical education writing:
 
 1. **Find the evidence.** Query PubMed (NCBI E-utilities) and ClinicalTrials.gov (API v2) for a topic.
@@ -17,6 +19,8 @@ flowchart LR
   C --> F
   F --> G[QC report<br/>Markdown + HTML]
 ```
+
+Prompt design decisions, the iteration log and the cross-model findings are in [PROMPTS.md](PROMPTS.md).
 
 ## Why the verifier matters
 
