@@ -1,0 +1,2 @@
+runs/**/*.html linguist-generated=true
+runs/**/*.md linguist-documentation=true
