@@ -1,0 +1,17 @@
+{
+  "slug": "endometrial_dmmr",
+  "topic": "First-line immunotherapy plus chemotherapy in advanced or recurrent endometrial cancer, by mismatch repair status",
+  "audience": "Gynecologic oncologists, medical oncologists, oncology pharmacists and nurse practitioners",
+  "pubmed_queries": [
+    "(dostarlimab OR pembrolizumab OR durvalumab OR atezolizumab) AND endometrial cancer AND (carboplatin OR paclitaxel) AND (phase 3 OR randomized)",
+    "endometrial cancer mismatch repair deficient immunotherapy first-line",
+    "endometrial cancer molecular classification mismatch repair testing practice"
+  ],
+  "trial_terms": ["dostarlimab endometrial", "pembrolizumab carboplatin paclitaxel endometrial", "durvalumab olaparib endometrial"],
+  "mindate": "2021",
+  "maxdate": "2026",
+  "per_query": 12,
+  "max_papers": 30,
+  "max_trials": 6,
+  "model": "claude-opus-5-5"
+}

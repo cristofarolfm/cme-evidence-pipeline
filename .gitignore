@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+# raw PubMed abstracts and the prompt packs built from them stay local (publisher copyright); regenerate with `run.py fetch` / `run.py draft`
+runs/*/sources.json
+runs/*/context.txt
+runs/*/prompt_pack.md

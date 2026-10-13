@@ -1,0 +1,25 @@
+{
+  "slug": "senolytics_gbm",
+  "topic": "Therapy-induced senescence after radiotherapy and temozolomide in glioblastoma and the case for adjuvant senolytic therapy",
+  "audience": "Neuro-oncologists, radiation oncologists, neurosurgeons, oncology pharmacists and translational researchers",
+  "pubmed_queries": [
+    "(glioblastoma OR glioma) AND (\"therapy-induced senescence\" OR \"radiation-induced senescence\" OR \"temozolomide-induced senescence\")",
+    "(glioblastoma OR glioma OR brain tumor) AND (senolytic OR senolytics OR navitoclax OR ABT-263 OR birinapant OR \"SMAC mimetic\" OR dasatinib OR fisetin)",
+    "(\"senescent astrocytes\" OR \"astrocyte senescence\" OR \"astrocytic senescence\") AND (radiation OR irradiation OR radiotherapy)",
+    "(glioblastoma OR glioma) AND (\"senescence-associated secretory phenotype\" OR SASP)",
+    "(senolytic OR senotherapy) AND (radiation-induced brain injury OR cognitive impairment) AND irradiation",
+    "(glioblastoma OR glioma) AND (BCL-XL OR \"MNK inhibitor\" OR clofoctol OR \"senolytic screen\")"
+  ],
+  "trial_terms": [
+    "senolytic glioma",
+    "dasatinib quercetin glioma",
+    "fisetin glioma",
+    "navitoclax glioma"
+  ],
+  "mindate": "2018",
+  "maxdate": "2026",
+  "per_query": 20,
+  "max_papers": 70,
+  "max_trials": 5,
+  "model": "claude-opus-5-5"
+}
